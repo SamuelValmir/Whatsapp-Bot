@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-bot---sulla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "typescript": "^4.7.4",
+    "whatsapp-web.js": "^1.17.1"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.0"
+  }
+}
